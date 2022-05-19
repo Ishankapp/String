@@ -1,0 +1,9 @@
+s1=input("Enter a string:")
+s2=input("Enter second string:")
+if(s1 in s2):
+  if(s2.startswith(s1)):
+    print('Prefix')
+  elif(s2.endswith(s1)):
+    print('Suffix')
+else:
+  print("Nothing")
